@@ -1,0 +1,17 @@
+.aboutContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+}
+.aboutContainer p{
+  width: 320px;
+  font-size: 20px;
+  text-align: justify;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  color: #1a3b17;
+  background-color: #C5FFF890;
+  padding: 10px;
+  border: 2px solid #C5FFF890;
+  border-radius: 10px;
+}

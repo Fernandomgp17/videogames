@@ -1,0 +1,7 @@
+.videoGamesContainer{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+  justify-content: space-evenly;
+}

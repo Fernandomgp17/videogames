@@ -1,0 +1,16 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.navBarContainer{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.containerApp{
+  width: 100%;
+  height: 100vh;
+  background-image: url('./image/presentation.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}

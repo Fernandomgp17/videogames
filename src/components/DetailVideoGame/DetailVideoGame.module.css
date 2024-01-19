@@ -1,0 +1,83 @@
+.detailContainer{
+  width: 100%;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detailVideoGameContainer{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 5px solid #6DA4AA;
+  border-radius: 10px;
+  background-color: #AAD9BB;
+}
+.buttonDetail{
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #D5F0C1;
+  cursor: pointer;
+  border: 2px solid #6DA4AA;
+  transition: transform .5s;
+}
+.buttonDetail:hover{
+  transform: scale(1.2);
+  background-color: #D63484;
+  border: 2px solid #D63484;
+}
+
+.titleVideoGame{
+  font-size: 30px;
+  margin: 10px;
+}
+
+.imageDetailVideoGame{
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+}
+.ratingContainer{
+  width: 400px;
+  display: flex;
+  margin: 5px 10px;
+  font-size: 20px;
+  justify-content: center;
+}
+.ratingTitle{
+  margin: 0px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.titlePlatform{
+  text-transform: uppercase;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 5px 10px;
+}
+.platformContainer{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 400px;
+  margin: 5px;
+}
+
+.genresTitle{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px;
+}
+.genresContainer{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  width: 400px;
+  margin: 10px;
+}
